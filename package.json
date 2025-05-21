@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-fix-disabled-rules",
+  "version": "0.0.1",
+  "description": "Fork of eslint rules with autofix disabled",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["eslint", "rules", "autofix", "fix", "disabled"],
+  "author": "Theo Ephraim",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "~9.27.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  }
+}
