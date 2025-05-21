@@ -16,7 +16,10 @@
 
 // const FixTracker = require("./utils/fix-tracker");
 // const astUtils = require("./utils/ast-utils");
-const astUtils = require('../node_modules/eslint/lib/rules/utils/ast-utils');
+const eslintPath = require.resolve('eslint');
+const path = require('path');
+const astUtilsPath = path.resolve(eslintPath, '../../', 'lib/rules/utils/ast-utils')
+const astUtils = require(astUtilsPath);
 
 
 //------------------------------------------------------------------------------
